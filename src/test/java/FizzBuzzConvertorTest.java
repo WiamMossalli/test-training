@@ -18,4 +18,13 @@ public class FizzBuzzConvertorTest {
         assertEquals("Buzz",result);
     }
 
+    @Test
+    public void shouldReturnBuzzWhenInputIs6(){
+        FizzBuzzConvertor fizzBuzzConvertor=new FizzBuzzConvertor();
+        String result = fizzBuzzConvertor.convert(6);
+        assertEquals("Buzz",result);
+    }
+
+
+
 }
