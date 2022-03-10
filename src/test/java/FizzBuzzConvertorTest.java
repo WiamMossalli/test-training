@@ -19,7 +19,7 @@ public class FizzBuzzConvertorTest {
     }
 
     @Test
-    public void shouldReturnBuzzWhenInputIs6(){
+    public void shouldReturnBuzzWhenInputIsMultipleOf3(){
         FizzBuzzConvertor fizzBuzzConvertor=new FizzBuzzConvertor();
         String result = fizzBuzzConvertor.convert(6);
         assertEquals("Buzz",result);
