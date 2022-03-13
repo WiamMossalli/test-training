@@ -10,6 +10,8 @@ public class FizzBuzzConvertor {
             else
             if (i%5==0)
             {return "Buzz";}
+            if (i%15==0)
+            {return "FizzBuzz";}
             else
                 return  String.valueOf(i);
         }

@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
 
+import java.util.Scanner;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzConvertorTest {
@@ -35,7 +37,10 @@ public class FizzBuzzConvertorTest {
     @Test
     public void output(){
         FizzBuzzConvertor fizzBuzzConvertor=new FizzBuzzConvertor();
-        for (int i=1;i<=6;i++){
+        //System.out.println("enter a number : ");
+        //Scanner in = new Scanner(System.in);
+        //int n = in.nextInt();
+        for (int i=1;i<=16;i++){
             System.out.println(fizzBuzzConvertor.convert(i));
         }
     }
