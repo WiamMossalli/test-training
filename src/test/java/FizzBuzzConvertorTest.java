@@ -32,6 +32,14 @@ public class FizzBuzzConvertorTest {
         assertEquals("FizzBuzz",result);
     }
 
+    @Test
+    public void output(){
+        FizzBuzzConvertor fizzBuzzConvertor=new FizzBuzzConvertor();
+        for (int i=1;i<=6;i++){
+            System.out.println(fizzBuzzConvertor.convert(i));
+        }
+    }
+
 
 
 }
